@@ -1,0 +1,308 @@
+@charset "utf-8";
+/* リセットCSS */
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* ヘッダー */
+body{
+    background-color: #191919;
+}
+h1{
+    font-size: 42px;
+    color: #ffffff;
+    font-family: Snell Roundhand;
+    line-height: 73.5px;
+    position: absolute;
+    top: 35.1516px;
+    left:  47.798px;
+}
+.header_menu{
+    font-size: 22px;
+    color: #ffffff;
+    list-style: none;
+    font-family: Palatino;
+    padding:0;
+    line-height: 97px;
+    display: flex;
+    margin: 0 auto;
+}
+.link_about{
+margin-right: 81.2091px;
+}
+.link_work{
+margin-right: 79.6473px;
+}
+.header_tittle{
+    font-size: 84px;
+    color: #ffffff;
+    line-height: 97px;
+    font-family: Palatino;
+    font-weight: bold;
+    position: absolute;
+    top: 288.0243px;
+    left: 219.7727px;
+}
+.header_word{
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 49.75px;
+}
+.header_word2{
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 21.85px;
+}
+/* アバウト */
+.tittle{
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 78.75px;
+    margin: 0 auto;
+    font-family: Palatino;
+}
+.about .rect{
+    width: 25px;
+    height: 25px;
+    background-color: #999999;
+    margin: 35.9876px;
+}
+.about .wrap_rect{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+}
+.work_profile{
+    margin: 0 auto;
+}
+.about_word{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 21.6px;
+    font-family: Kefa;
+    font-weight: bold;
+}
+.about_word1{
+    font-size: 41px;
+    color: #ffffff;
+    line-height: 71.75px;
+}
+.about_word2{
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 24.5px;
+}
+.about_word3{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 28px;
+}
+.about_list{
+    font-size: 20px;
+    color: #ffffff;
+    list-style: none;
+    padding-left: 0;
+    line-height: 41px;
+}
+.about_word4{
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 31.52px;
+}
+/* ワーク */
+.work_list ul{
+    display: flex;
+    margin-right: 21.733px;
+}
+/* コンタクト */
+.contact_form .rect{
+    width: 383.598px;
+    height: 31.8701px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 23.9205px;
+}
+.contact_form .rect2{
+    width: 753.8893px;
+    height: 113.9722px;
+    background-color: #ffffff;
+}
+.info{
+font-size: 22px;
+line-height: 38.5px;
+color: #ffffff;
+}
+.contact_form .rect{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* フッター */
+.fotter{
+    font-size: 12px;
+    line-height: 21px;
+    font-family: Palatino;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.wrap_wrap{
+    display: flex;
+    /* justify-content: space-between; */
+}
+@media screen and (max-width:767px){
+    /* ヘッダー */
+    .header_tittle{
+        font-size: 72px;
+        line-height: 76px;
+    }
+    .header_word{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    /* アバウト */
+    .tittle{
+        font-size: 34px;
+        line-height: 59.5px;
+    }
+    .about .rect{
+        width: 14.168px;
+        height: 15.5284px;
+        background-color: #999999;
+        margin: 18.5547px;
+    }
+    .rect01{
+        display: flex;
+    }
+    .rect02{
+        display: flex;
+
+    }
+
+    /* ワーク */
+    /* コンタクト */
+    .contact_form .rect{
+        border-radius: 10px;
+        width: 305px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    .contact_form .rect2{
+        border-radius: 10px;
+        width: 305px;
+        height: 92.594px;
+        margin: 0 auto;
+    }
+    .info{
+        font-size: 15px;
+        line-height: 26.25px;
+        
+    }
+    .wrap_wrap{
+        display: block;
+    }
+    /* フッター */
+    .fotter{
+        margin-bottom: 41.7664px;
+    }
+}
