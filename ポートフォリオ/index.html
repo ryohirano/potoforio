@@ -7,16 +7,24 @@
     <title>ポートフォリオ</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="slick/slick.min.js"></script>
 
 </head>
 <body>
-    <header>
+    <header>   
+        <img class="logo" src="img/rogo.png" alt="">
+        <div class="sp_btn">
+            <span></span><span></span>
+        </div>
         <div class="header_img">
         <img class="pc" src="img/header_pc.jpg" alt="">
         <img class="sp" src="img/header_sp.jpg" alt="">
         </div>
         <div>
-        <h1>ryo hirano</h1>
+        <!-- <img class="rogo" src="img/rogo.png" alt=""> -->
         <ul class="header_menu">
             <li class="link_about"><a href="#about">ABOUT</a></li>
             <li class="link_work"><a href="#work">WORK</a></li>
@@ -26,17 +34,16 @@
             DESIGN</p>
         <p class="header_word">あなたの思いやストーリーを<br>
             デザインを通して形にしていきます。</p>
-        <p class="header_word2">CONTACTーCONTACTーCONTACTー</p>
+        <img class="contact_img" src="img/contact.png" alt="">
         </div>
     </header>
     <main>
     <!-- アバウト -->
     <div class="about" id="about">
-        <h2 class="tittle">ABOUT</h2>
+        <h2 class="tittle about_tittle">ABOUT</h2>
         <div class="about_wrap_rect">
         <div class="rect01">
         <ul class="wrap_rect">
-            <!-- <li class="rect"></li>
             <li class="rect"></li>
             <li class="rect"></li>
             <li class="rect"></li>
@@ -45,12 +52,12 @@
             <li class="rect"></li>
             <li class="rect"></li>
             <li class="rect"></li>
-            <li class="rect"></li> -->
+            <li class="rect"></li>
+            <li class="rect"></li>
         </ul>
         </div>
         <div class="rect02">
         <ul class="wrap_rect">
-            <!-- <li class="rect"></li>
             <li class="rect"></li>
             <li class="rect"></li>
             <li class="rect"></li>
@@ -59,26 +66,30 @@
             <li class="rect"></li>
             <li class="rect"></li>
             <li class="rect"></li>
-            <li class="rect"></li> -->
+            <li class="rect"></li>
+            <li class="rect"></li>
         </ul>
+        </div>
         </div>
         <div class="about_wrap_list">
         <img src="img/about_pc01jpeg." alt="">
         <div class="work_profile">
-            <img class="pc" src="img/about_pc_01.jpg" alt="">
+            <img class="pc about_img" src="img/about_pc_01.jpg" alt="">
             <img class="sp profile_img" src="img/about_sp_01.jpg" alt="">
+            <div class="wrap_profile">
             <p class="about_word">profile</p>
-            <p class="about_word1">ryo hirano</p>
+            <p class="about_word1 profile1">ryo hirano</p>
             <p class="about_word2">はじめまして、愛知でWEBデザイナーとして活動しています平野と申します。当サイトをご覧いただきありがとうございます。
         デザインをする前にお客さまの課題や悩みを丁寧にヒアリングし、デザインに落とし込んでいきます。
         </p>
         </div>
+        </div>
     <div class="wrap_skill">
-    <img class="pc" src="img/about_pc_02.jpg" alt="">
+    <img class="pc skill_img" src="img/about_pc_02.jpg" alt="">
     <img class="sp" src="img/about_sp_03.jpg" alt="">
-        <p class="about_word3">adobeのデザインソフトとコーディングに必要な言語スキルで、イメージを形にしていきます。</p>
+    <h3 class="about_word1 skill1">skill</h3>
+        <p class="about_word3">adobeのデザインソフトとコー<br>ディングに必要な言語スキルで、<br>イメージを形にしていきます。</p>
         <ul class="about_list">
-            <p class="about_word1">skill</p>
             <li>・adobe illustarator</li>
             <li>・adobe photoshop</li>
             <li>・HTML</li>
@@ -87,25 +98,24 @@
         </ul>
     </div>
     <div class="wrap_love">
-        <img class="pc" src="img/about_pc_03.jpg" alt="">
+        <img class="pc love_img" src="img/about_pc_03.jpg" alt="">
         <img class="sp" src="img/about_sp_02.jpg" alt="">
-        <p class="about_word1">LOVE</p>
-        <p class="about_word4">ライブが好きです。
+        <p class="about_word1 hobby1">LOVE</p>
+        <p class="about_word4">ライブが好きです。<br>
         好きなグループはAAA</p>
-    </div>
     </div>
     </div>
     </div>
     <!-- WORK -->
     <div class="work" id="work">
     <a href="work.html"></a>
-    <h2 class="tittle">WORK</h2>
+    <h2 class="tittle work_tittle">WORK</h2>
     <div class="work_list">
         <ul>
-            <li><a href="work.html"><img src="img/work1.png" alt="扉"></a></li>
-            <li><a href="work.html"><img src="img/work2.png" alt="女性"></a></li>
-            <li><a href="work.html"><img src="img/work3.png" alt="美容室"></a></li>
-            <li><a href="work.html"><img src="img/work4.png" alt="カフェ"></a></li>
+            <li class="work_slider"><a href="work.html"><img class="work_slider_img" src="img/work1.png" alt="扉"></a></li>
+            <li class="work_slider"><a href="work.html"><img class="work_slider_img" src="img/work2.png" alt="女性"></a></li>
+            <li class="work_slider"><a href="work.html"><img class="work_slider_img" src="img/work3.png" alt="美容室"></a></li>
+            <li class="work_slider"><a href="work.html"><img class="work_slider_img" src="img/work4.png" alt="カフェ"></a></li>
         </ul>
     </div>
     <span></span>
@@ -115,7 +125,7 @@
     </div>
     <!-- CONTACT -->
     <div class="contact" id="contact">
-    <h2 class="tittle">CONTACT</h2>
+    <h2 class="tittle contact_tittle">CONTACT</h2>
     <div class="contact_form">
         <div class="wrap_wrap">
         <div>
@@ -129,11 +139,19 @@
         </div>
         <p class="info">お問い合わせ内容</p>
         <div class="rect2"></div>
-        <p class="">送　信</p>
+        <p class="link_soshin">送　信</p>
     </div>
     <!-- フッター -->
     <p class="fotter">© 2022 ryo hirano All rights reserved.</p>
     </div>
     </main>
+    <script>
+        $(function(){
+            $('.about_wrap_list').slick({
+                autoplay: true,
+                autoplayspeed:4000,
+        });
+        });
+    </script>
 </body>
 </html>

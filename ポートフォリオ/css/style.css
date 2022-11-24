@@ -58,6 +58,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    text-decoration: none;
 }
 
 /* change colours to suit your needs */
@@ -88,6 +89,11 @@ table {
     border-collapse:collapse;
     border-spacing:0;
 }
+img {
+        max-width: 100%;
+        vertical-align: bottom;
+}
+    
 
 /* change border colour to suit your needs */
 hr {
@@ -112,6 +118,12 @@ display: block !important;
 .sp{
 display: none !important;
 }
+.logo{
+    max-width: 119.001px;
+    position: absolute;
+    top: 30.143px;
+    left: 95.1422px;
+}
 h1{
     font-size: 42px;
     color: #ffffff;
@@ -127,10 +139,13 @@ h1{
     list-style: none;
     font-family: Palatino;
     padding:0;
-    line-height: 97px;
+    /* line-height: 97px; */
     display: flex;
     margin: 0 auto;
     width: 50%;
+    position: absolute;
+    top: 50.3093px;
+    left: 474.6756px;
 }
 .link_about{
 margin-right: 81.2091px;
@@ -152,19 +167,43 @@ margin-right: 79.6473px;
     font-size: 25px;
     color: #ffffff;
     line-height: 49.75px;
+    position: absolute;
+    left:  219.7727px;
+    top: 506.3424px;
 }
 .header_word2{
     font-size: 14px;
     color: #ffffff;
     line-height: 21.85px;
 }
+.contact_img{
+    max-width: 88.280px;
+    position: fixed;
+    bottom: 44.9706px;
+    right: 55.1308px;
+}
 /* アバウト */
 .tittle{
     font-size: 45px;
     color: #ffffff;
     line-height: 78.75px;
-    align-items: center;
+    text-align: center;
     font-family: Palatino;
+}
+.about_tittle{
+    margin-top: 72.5064px;
+}
+.about_img{
+    width: 824.716px;
+    margin: 0 auto;
+}
+.skill_img{
+    width: 824.716px;
+    margin: 0 auto;
+}
+.love_img{
+    width: 824.716px;
+    margin: 0 auto;
 }
 .wrap_rect{
     max-width: 1000px;
@@ -186,9 +225,15 @@ margin-right: 79.6473px;
 }
 .about .wrap_rect{
     /* display: flex; */
-    /* justify-content: space-between; */
+    justify-content: space-between;
     list-style: none;
     margin: 0 auto;
+}
+.rect01{
+    margin-left: 178.0385px;
+}
+.rect02{
+    margin-right: 185.7085px;
 }
 .work_profile{
     margin: 0 auto;
@@ -227,30 +272,88 @@ margin-right: 79.6473px;
     color: #ffffff;
     line-height: 31.52px;
 }
+/* .wrap_profile{
+    position: absolute;
+    right: 41.133px; */
+}
+.wrap_skill{
+
+}
+.wrap_love{
+    text-align: center;
+}
 /* ワーク */
 .work_list ul{
     display: flex;
     margin-right: 21.733px;
 }
+.work_tittle{
+    margin-top: 105.7423px;
+}
+.work_tittle2{
+    margin-top: 198.6679px;
+}
+.work_list{
+    margin-top: 149.7412px;
+}
+.work_list img{
+    list-style: none;
+}
+.work_slider{
+    margin-right: 41.4545px;
+}
+.work_slider_img{
+    max-width: 386.374px;
+}
 .card{
-    width: 288px;
+    width: 497.7052px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 27.169px;
     overflow: hidden;
+    margin: 0 auto;
+    margin-top: 60.4621px;
     box-shadow: 0 4px 15px rgba(0,0,0,.2)
+    
+    }
+    .card_wrap{
+        display: flex;
+        flex-wrap: wrap;
     }
     .card__imgframe{
     width: 100%;
-    height: auto;
-    padding-top: 56.25%;
-    background: #bbb;
+    height: 559.9768px;
+    /* padding-top: 56.25%; */
+    background: #ffffff;
     box-sizing: border-box;
+    text-align: center;
+    }
+    .card_img1{
+        width: 245.936px;
+        height: 501.551px;
+        padding-top: 48.3444px;
+
+    }
+    .card_img2{
+        width: 360.24px;
+        height: 494.784px;
+        padding-top: 48.3444px;
+    }
+    .card_img3{
+        width: 326.04px;
+        height: 494.784px;
+        padding-top: 48.3444px;
+
+    }
+    .card_img4{
+        width: 360.24px;
+        height: 494.784px;
+        padding-top: 48.3444px;
     }
     .card__textbox{
     width: 100%;
-    height: auto;
+    height: 240.3716px;
     padding: 20px 18px;
-    background: #fff;
+    background: #ffffff;
     box-sizing: border-box;
     }
     .card__textbox > * + *{
@@ -259,13 +362,18 @@ margin-right: 79.6473px;
     .card__titletext{
     font-size: 20px;
     font-weight: bold;
-    line-height: 125%;
+    line-height: 41px;
     }
     .card__overviewtext{
     font-size: 12px;
-    line-height: 150%;
+    line-height: 28px;
+    margin-top: 36.159px;
+    font-family: 小塚ゴシック Pr6N;
     }
 /* コンタクト */
+.contact_tittle{
+    margin-top: 85.7189px;
+}
 .contact_form .rect{
     width: 383.598px;
     height: 31.8701px;
@@ -278,11 +386,14 @@ margin-right: 79.6473px;
     width: 753.8893px;
     height: 113.9722px;
     background-color: #ffffff;
+    margin: 0 auto;
 }
 .info{
 font-size: 22px;
 line-height: 38.5px;
 color: #ffffff;
+/* text-align: center; */
+/* margin-right: 341.5953px; */
 }
 .contact_form .rect{
     display: flex;
@@ -296,12 +407,29 @@ color: #ffffff;
     font-family: Palatino;
     font-weight: bold;
     color: #ffffff;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-top: 75.1123px;
+    margin-bottom: 89.6556px;
 }
 .wrap_wrap{
     display: flex;
     /* justify-content: space-between; */
 }
+.link_soshin{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 25.36px;
+    width: 229px;
+    height: 50.7206px;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-family: 小塚ゴシック Pr6N◆;
+    margin: 0 auto;
+    margin-top: 48.5349px;
+    padding-top: 11.8862px;
+}
+
 @media screen and (max-width:400px){
     /* ヘッダー */
     .pc{
@@ -314,21 +442,44 @@ color: #ffffff;
         .header_img img{
             width: 100%;
         }
+    .sp_btn span{
+        width: 27px;
+        height: 2px;
+        background-color: #ffffff;
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 33.169px;
+    }
     .header_tittle{
         font-size: 72px;
         line-height: 76px;
+        position: static;
+        margin-top: -100px;
+        margin-left: 34.6102px;
     }
     .header_word{
         font-size: 18px;
         line-height: 27px;
+        position: absolute;
+        top: 176.7652px;
+        left: 38.5577px;
     }
     .header_menu{
         display: none;
+    }
+    .contact_img{
+        display: none;
+    }
+    .logo{
+        left: 36.5px;
+        top: 38.8419px;
     }
     /* アバウト */
     .tittle{
         font-size: 34px;
         line-height: 59.5px;
+        /* margin-top: 198.6679px; */
     }
     .about_wrap_rect{
         display: flex;
@@ -337,7 +488,7 @@ color: #ffffff;
         display: flex;
     }
     .about_wrap_list{
-        display: flex;
+        
     }
     .about .rect{
         width: 14.168px;
@@ -352,20 +503,71 @@ color: #ffffff;
         display: flex;
 
     }
-.profile_img{
-    width: 305.5px;
-    height: 472px;
-}
+
     /* ワーク */
+    .card{
+        margin: 0 auto;
+        margin-top: 54.6679px;
+        width: 302px;
+        border-radius: 16.411px;
+    }
+    .card__imgframe{
+        height: 332.3866px;
+    }
+    .card_img1{
+        width: 150.620px;
+        height: 301px;
+        padding-top: 14.4287px;
+    }
+    .card_img2{
+        width: 230.528px;
+        height: 302.650px;
+        padding-top: 14.4287px;
+    }
+    .card_img3{
+        width: 230.528px;
+        height: 302.650px;
+        padding-top: 14.4287px;
+    }
+    .card_img4{
+        width: 230.528px;
+        height: 302.650px;
+        padding-top: 14.4287px;
+    }
+    .card__textbox{
+        height: 151.7916px;
+        padding: 0 10.2345px 0 19.3008px;
+    }
+    .card__titletext{
+        padding-top: 20.841px;
+        font-size: 18px;
+    }
+    .card__overviewtext{
+        font-size: 10px;
+        margin-top: 21.6992px;
+        line-height: 19.36px;
+    }
+    .work_list{
+        margin-top: 32.238px;
+    }
+    .work_slider{
+        margin-right: 21.7191px;
+    }
+    .work_slider_img{
+        max-width: 191.734px;
+    }
     /* コンタクト */
+    .contact_tittle{
+        margin-top: 79.1701px;
+    }
     .contact_form .rect{
-        border-radius: 10px;
+        border-radius: 5.07px;
         width: 305px;
         height: 30px;
         margin: 0 auto;
     }
     .contact_form .rect2{
-        border-radius: 10px;
+        border-radius: 5.07px;
         width: 305px;
         height: 92.594px;
         margin: 0 auto;
@@ -373,13 +575,21 @@ color: #ffffff;
     .info{
         font-size: 15px;
         line-height: 26.25px;
-        
+        margin-left: 40.1219px;
     }
     .wrap_wrap{
         display: block;
     }
+    .link_soshin{
+        font-size: 11.42px;
+        width: 108.952px;
+        height: 24.1316px;
+        line-height: 13.7px;
+        padding-top: 6.1519px;
+    }
     /* フッター */
     .fotter{
         margin-bottom: 41.7664px;
+        margin-top: 51.6262px;
     }
 }
